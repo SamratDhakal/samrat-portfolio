@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio of Samrat Dhakal, a UI/UX Designer based in Lalitpur, Nepal. Explore selected product design work, UX process, Figma projects, design systems, and user-centered digital experiences." />
+  <meta name="description" content="Portfolio of Samrat Dhakal, a UI/UX Designer based in Lalitpur, Nepal. Explore UI/UX work, HRIS product design, design process, Figma projects, and user-centered digital interfaces." />
   <meta name="keywords" content="Samrat Dhakal, UI UX Designer Nepal, Product Designer Nepal, Figma Designer, UX Portfolio, Product Design Portfolio, HRIS Product Design" />
   <meta name="author" content="Samrat Dhakal" />
   <meta name="robots" content="index, follow" />
@@ -11,12 +11,12 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Samrat Dhakal — UI/UX Designer" />
-  <meta property="og:description" content="Personal UI/UX portfolio focused on HRIS product design, design systems, technical feasibility, and user-centered digital interfaces." />
-  <meta property="og:image" content="https://placehold.co/1200x630/090A0F/D8B76A?text=Samrat+Dhakal+UI%2FUX+Designer" />
+  <meta property="og:description" content="Personal UI/UX portfolio focused on product design, design systems, technical feasibility, and user-centered digital interfaces." />
+  <meta property="og:image" content="https://raw.githubusercontent.com/SamratDhakal/portfolio/main/samrat-profile.png" />
   <meta property="og:url" content="https://www.samratdhakal.com.np/" />
-
   <link rel="canonical" href="https://www.samratdhakal.com.np/" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23090A0F'/%3E%3Cpath d='M22 70h56v8H22z' fill='%23D8B76A'/%3E%3Ctext x='50' y='58' font-size='39' text-anchor='middle' fill='%23F7F0DF' font-family='Arial' font-weight='700'%3ESD%3C/text%3E%3C/svg%3E" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23090A0F'/%3E%3Ctext x='50' y='60' font-size='38' text-anchor='middle' fill='%23D8B76A' font-family='Arial' font-weight='700'%3ESD%3C/text%3E%3C/svg%3E" />
   <title>Samrat Dhakal | UI/UX Designer in Nepal</title>
 
   <!-- Microsoft Clarity -->
@@ -35,52 +35,312 @@
   </script>
 
   <style>
-    :root{
-      --bg:#090A0F; --surface:#10131C; --surface-2:#151926; --text:#F6F0E4; --muted:#A7ACBA; --soft:#6F7587;
-      --gold:#D8B76A; --gold-2:#F4DFA8; --green:#25D366; --blue:#7AA7FF; --purple:#9B7BFF; --line:rgba(255,255,255,.11);
-      --max:1180px; --nav:76px; --ease:cubic-bezier(.22,1,.36,1); --radius:28px;
+    :root {
+      --bg: #090a0f;
+      --text: #f7f0e4;
+      --muted: #a6adbb;
+      --soft: #737b8c;
+      --line: rgba(255,255,255,.13);
+      --gold: #d8b76a;
+      --gold-2: #f2dca2;
+      --green: #25d366;
+      --panel: rgba(255,255,255,.055);
+      --max: 1180px;
+      --nav: 74px;
+      --ease: cubic-bezier(.22,1,.36,1);
     }
-    *{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav) + 28px)}
-    body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
-    body:before{content:"";position:fixed;inset:0;z-index:-3;background:radial-gradient(circle at 8% 5%,rgba(216,183,106,.18),transparent 28%),radial-gradient(circle at 92% 10%,rgba(155,123,255,.18),transparent 26%),linear-gradient(180deg,#090A0F 0%,#0B0E16 46%,#08090D 100%)}
-    body:after{content:"";position:fixed;inset:0;z-index:-2;opacity:.08;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,.12) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.12) 1px,transparent 1px);background-size:72px 72px;mask-image:linear-gradient(to bottom,black,transparent 78%)}
-    ::selection{background:var(--gold-2);color:#12100B}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{background:#08090D}::-webkit-scrollbar-thumb{background:linear-gradient(var(--gold),var(--purple));border-radius:999px;border:2px solid #08090D}
-    a{color:inherit;text-decoration:none} button,input,textarea{font:inherit} button{border:0;cursor:pointer}.container{width:min(calc(100% - 40px),var(--max));margin-inline:auto}.section{padding:118px 0}.eyebrow{display:inline-flex;align-items:center;gap:12px;color:var(--gold-2);font-size:.76rem;font-weight:850;letter-spacing:.18em;text-transform:uppercase;margin-bottom:18px}.eyebrow:before{content:"";width:46px;height:1px;background:linear-gradient(90deg,var(--gold),transparent)}
-    .section-head{display:grid;grid-template-columns:1fr minmax(260px,460px);gap:60px;align-items:end;margin-bottom:58px}.section-title{font-size:clamp(2.25rem,5vw,5.1rem);line-height:.96;letter-spacing:-.075em}.section-copy{color:var(--muted);font-size:1rem;max-width:570px}.reveal{opacity:0;transform:translateY(28px);transition:opacity .78s var(--ease),transform .78s var(--ease)}.reveal.show{opacity:1;transform:none}
-    .cursor-dot,.cursor-ring{position:fixed;left:0;top:0;pointer-events:none;z-index:99999;border-radius:50%;transform:translate(-50%,-50%)}.cursor-dot{width:7px;height:7px;background:var(--gold-2);box-shadow:0 0 18px rgba(216,183,106,.6)}.cursor-ring{width:40px;height:40px;border:1px solid rgba(216,183,106,.42);transition:width .2s var(--ease),height .2s var(--ease),background .2s var(--ease);mix-blend-mode:screen}body.cursor-hover .cursor-ring{width:62px;height:62px;background:rgba(216,183,106,.08)}
 
-    .floating-whatsapp{position:fixed;right:24px;bottom:24px;z-index:1400;width:58px;height:58px;display:grid;place-items:center;border-radius:50%;color:#04170B;background:linear-gradient(135deg,#9AF7B8,var(--green));box-shadow:0 20px 58px rgba(37,211,102,.32);border:1px solid rgba(255,255,255,.24);transition:transform .25s var(--ease),box-shadow .25s var(--ease)}.floating-whatsapp:hover{transform:translateY(-5px) scale(1.04);box-shadow:0 28px 76px rgba(37,211,102,.42)}.floating-whatsapp svg{width:30px;height:30px;fill:currentColor}
-    .site-header{position:fixed;inset:0 0 auto 0;height:var(--nav);z-index:1200;transition:background .25s var(--ease),border-color .25s var(--ease)}.site-header.scrolled{background:rgba(9,10,15,.74);backdrop-filter:blur(22px);border-bottom:1px solid rgba(255,255,255,.07)}.nav{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:-.015em;white-space:nowrap}.brand-mark{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;color:#11100A;background:var(--gold);font-weight:950}.nav-links{display:flex;align-items:center;gap:4px;padding:7px;border-radius:999px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08);position:relative}.nav-links a{position:relative;z-index:2;padding:9px 13px;border-radius:999px;color:var(--muted);font-size:.88rem;font-weight:750}.nav-links a.active,.nav-links a:hover{color:var(--text)}.nav-indicator{position:absolute;top:7px;left:7px;height:calc(100% - 14px);width:64px;border-radius:999px;background:rgba(255,255,255,.08);transition:.28s var(--ease)}.nav-cta{min-height:44px;display:inline-flex;align-items:center;padding:0 18px;border-radius:999px;color:#100D07;background:linear-gradient(135deg,var(--gold-2),var(--gold));font-weight:900;box-shadow:0 16px 42px rgba(216,183,106,.2)}.menu-toggle{display:none;width:46px;height:46px;border-radius:50%;place-items:center;background:rgba(255,255,255,.06);border:1px solid var(--line);color:var(--text)}.menu-toggle span{width:20px;height:2px;background:currentColor;box-shadow:0 7px 0 currentColor,0 -7px 0 currentColor}
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; scroll-padding-top: 96px; }
+    body {
+      min-height: 100vh;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -3;
+      background:
+        radial-gradient(circle at 12% 7%, rgba(216,183,106,.16), transparent 30%),
+        radial-gradient(circle at 86% 12%, rgba(126,109,255,.14), transparent 31%),
+        linear-gradient(180deg, #090a0f 0%, #0d1018 52%, #08090d 100%);
+    }
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -2;
+      pointer-events: none;
+      opacity: .08;
+      background-image:
+        linear-gradient(rgba(255,255,255,.14) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.14) 1px, transparent 1px);
+      background-size: 82px 82px;
+      mask-image: linear-gradient(to bottom, black, transparent 78%);
+    }
 
-    .hero{min-height:100svh;padding:calc(var(--nav) + 72px) 0 84px;display:flex;align-items:center}.hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(320px,.68fr);gap:78px;align-items:center}.availability{display:inline-flex;align-items:center;gap:10px;color:var(--muted);border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);padding:9px 14px;border-radius:999px;margin-bottom:30px}.pulse{width:9px;height:9px;border-radius:50%;background:#85F0B0;box-shadow:0 0 0 rgba(133,240,176,.6);animation:pulse 2s infinite}@keyframes pulse{70%{box-shadow:0 0 0 12px rgba(133,240,176,0)}}.hero h1{font-size:clamp(4.1rem,10vw,10.8rem);line-height:.84;letter-spacing:-.105em;max-width:980px}.hero h1 .line{display:block}.accent{color:var(--gold-2)}.hero-meta{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 22px}.meta-chip{color:var(--gold-2);font-weight:850;letter-spacing:-.015em}.meta-chip:not(:last-child):after{content:"/";color:var(--soft);margin-left:12px}.hero-copy{max-width:660px;color:var(--muted);font-size:clamp(1.06rem,1.45vw,1.22rem)}.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}.btn{min-height:52px;display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:0 22px;border-radius:999px;font-weight:900;transition:transform .22s var(--ease),background .22s var(--ease)}.btn:hover{transform:translateY(-3px)}.btn-primary{color:#100D07;background:linear-gradient(135deg,var(--gold-2),var(--gold));box-shadow:0 20px 48px rgba(216,183,106,.22)}.btn-secondary{border:1px solid var(--line);background:rgba(255,255,255,.045);color:var(--text)}.btn-whatsapp{color:#04170B;background:linear-gradient(135deg,#9AF7B8,var(--green));box-shadow:0 18px 44px rgba(37,211,102,.18)}.socials{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.socials a{color:var(--muted);font-size:.84rem;font-weight:800;border-bottom:1px solid rgba(255,255,255,.16);padding-bottom:4px}.socials a:hover{color:var(--gold-2);border-color:var(--gold)}
-    .hero-visual{position:relative;min-height:610px}.portrait-wrap{position:absolute;inset:0 0 95px 48px;border-radius:44px;overflow:hidden;background-image:linear-gradient(180deg,rgba(9,10,15,0) 42%,rgba(9,10,15,.58) 100%),url("https://raw.githubusercontent.com/SamratDhakal/portfolio/main/samrat-profile.png?v=20260602-centered");background-size:cover,cover;background-position:center,50% 28%;background-repeat:no-repeat;border:1px solid rgba(255,255,255,.10);box-shadow:0 34px 110px rgba(0,0,0,.32)}.portrait-wrap:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 68% 18%,rgba(255,255,255,.10),transparent 30%);z-index:1;pointer-events:none}.portrait-fallback{display:none}.profile-photo{display:none}.visual-card{position:absolute;left:24px;bottom:28px;width:min(320px,82%);padding:20px;border-radius:26px;background:rgba(16,19,28,.72);border:1px solid rgba(255,255,255,.13);backdrop-filter:blur(20px);box-shadow:0 24px 70px rgba(0,0,0,.38)}.visual-card small{display:block;color:var(--soft);font-weight:850;text-transform:uppercase;letter-spacing:.14em;margin-bottom:12px}.visual-card strong{display:block;font-size:1.45rem;line-height:1.08;letter-spacing:-.04em}.visual-card p{color:var(--muted);margin-top:10px;font-size:.92rem;line-height:1.55}.side-note{position:absolute;right:0;top:78px;writing-mode:vertical-rl;color:var(--soft);font-size:.78rem;text-transform:uppercase;letter-spacing:.18em}
+    ::selection { background: var(--gold-2); color: #11100a; }
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-track { background: #08090d; }
+    ::-webkit-scrollbar-thumb { background: linear-gradient(var(--gold), #9b7bff); border-radius: 999px; border: 2px solid #08090d; }
 
-    .about-layout{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.15fr);gap:80px;align-items:start}.large-number{font-size:clamp(8rem,16vw,15rem);line-height:.75;letter-spacing:-.12em;color:rgba(216,183,106,.16);font-weight:950}.intro-text{font-size:clamp(1.45rem,3vw,2.8rem);line-height:1.12;letter-spacing:-.055em;max-width:860px}.intro-text em{font-style:normal;color:var(--gold-2)}.proof-list{display:grid;gap:18px;margin-top:38px}.proof-item{display:grid;grid-template-columns:36px 1fr;gap:18px;padding-top:18px;border-top:1px solid rgba(255,255,255,.1)}.proof-item span{color:var(--gold);font-weight:950}.proof-item p{color:var(--muted)}.metrics-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:72px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.1);border-radius:32px;overflow:hidden}.metric{padding:30px;background:rgba(255,255,255,.035)}.metric strong{display:block;font-size:clamp(2.5rem,5vw,4rem);line-height:.9;letter-spacing:-.08em;color:var(--gold-2)}.metric span{display:block;color:var(--muted);margin-top:14px}
+    a { color: inherit; text-decoration: none; }
+    button, input, textarea { font: inherit; }
+    button { border: 0; cursor: pointer; }
+    .container { width: min(calc(100% - 40px), var(--max)); margin-inline: auto; }
+    .section { padding: 120px 0; }
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity .78s var(--ease), transform .78s var(--ease); }
+    .reveal.show { opacity: 1; transform: none; }
 
-    .work-list{display:grid;gap:84px}.case{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(280px,.72fr);gap:54px;align-items:center}.case:nth-child(even){grid-template-columns:minmax(280px,.72fr) minmax(0,1.08fr)}.case:nth-child(even) .case-media{order:2}.case-media{min-height:430px;border-radius:42px;background:linear-gradient(145deg,rgba(255,255,255,.08),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.11);padding:24px;position:relative;overflow:hidden}.case-media:before{content:"";position:absolute;inset:-20%;background:radial-gradient(circle at 28% 16%,rgba(216,183,106,.28),transparent 28%),radial-gradient(circle at 80% 72%,rgba(122,167,255,.18),transparent 30%);animation:drift 8s ease-in-out infinite alternate}.case-ui{position:relative;height:100%;border-radius:30px;background:#0E111A;border:1px solid rgba(255,255,255,.12);padding:22px;overflow:hidden}.ui-top{display:flex;gap:8px;margin-bottom:22px}.ui-top span{width:10px;height:10px;border-radius:50%;background:#FF6B6B}.ui-top span:nth-child(2){background:#FFD166}.ui-top span:nth-child(3){background:#80F2B4}.ui-grid{display:grid;grid-template-columns:.72fr 1fr;gap:14px}.ui-panel,.ui-line,.ui-tile{border-radius:18px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.08)}.ui-panel{height:250px}.ui-stack{display:grid;gap:12px}.ui-line{height:42px}.ui-tile{height:92px;background:linear-gradient(135deg,rgba(216,183,106,.12),rgba(122,167,255,.09))}.case-kicker{color:var(--gold-2);font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-weight:900;margin-bottom:16px}.case h3{font-size:clamp(2rem,4.5vw,4.2rem);line-height:.95;letter-spacing:-.07em;margin-bottom:18px}.case p{color:var(--muted);font-size:1.02rem}.tags{display:flex;flex-wrap:wrap;gap:9px;margin:24px 0}.tags span{font-size:.78rem;font-weight:800;color:var(--muted);padding:8px 11px;border-radius:999px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.035)}.case-link{display:inline-flex;align-items:center;gap:10px;color:var(--gold-2);font-weight:900;border-bottom:1px solid rgba(216,183,106,.4);padding-bottom:5px}@keyframes drift{to{transform:translate3d(4%,2%,0) scale(1.03)}}
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--gold-2);
+      font-size: .76rem;
+      font-weight: 850;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+    .eyebrow::before { content: ""; width: 42px; height: 1px; background: linear-gradient(90deg, var(--gold), transparent); }
+    .section-head { display: grid; grid-template-columns: minmax(0, .9fr) minmax(280px, .55fr); gap: 64px; align-items: end; margin-bottom: 62px; }
+    .section-title { font-size: clamp(2.4rem, 5.4vw, 5.3rem); line-height: .95; letter-spacing: -.075em; }
+    .section-copy { color: var(--muted); max-width: 560px; }
 
-    .tools-strip{padding:30px;border-top:1px solid rgba(255,255,255,.11);border-bottom:1px solid rgba(255,255,255,.11);display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center;justify-content:space-between}.tools-strip strong{font-size:clamp(1.5rem,3vw,2.2rem);letter-spacing:-.05em}.tool-list{display:flex;flex-wrap:wrap;gap:10px}.tool-list span{padding:9px 12px;border-radius:999px;background:rgba(255,255,255,.055);color:var(--muted);font-weight:800;font-size:.85rem}
+    .cursor-dot, .cursor-ring { position: fixed; left: 0; top: 0; pointer-events: none; z-index: 99999; border-radius: 50%; transform: translate(-50%,-50%); }
+    .cursor-dot { width: 7px; height: 7px; background: var(--gold-2); box-shadow: 0 0 18px rgba(216,183,106,.6); }
+    .cursor-ring { width: 40px; height: 40px; border: 1px solid rgba(216,183,106,.42); transition: width .2s var(--ease), height .2s var(--ease), background .2s var(--ease); mix-blend-mode: screen; }
+    body.cursor-hover .cursor-ring { width: 62px; height: 62px; background: rgba(216,183,106,.08); }
 
-    .process-line{position:relative;display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-top:1px solid rgba(255,255,255,.14);margin-top:26px}.process-step{padding:30px 22px 0 0}.process-step:before{content:"";display:block;width:13px;height:13px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 9px rgba(216,183,106,.1);margin-top:-37px;margin-bottom:28px}.process-step span{color:var(--gold-2);font-weight:950}.process-step h3{font-size:1.18rem;letter-spacing:-.03em;margin:8px 0}.process-step p{color:var(--muted);font-size:.94rem}
+    .floating-whatsapp {
+      position: fixed;
+      right: 24px;
+      bottom: 24px;
+      z-index: 1300;
+      width: 58px;
+      height: 58px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      color: #04170b;
+      background: linear-gradient(135deg, #9af7b8, var(--green));
+      box-shadow: 0 20px 58px rgba(37,211,102,.32);
+      border: 1px solid rgba(255,255,255,.22);
+      transition: transform .25s var(--ease), box-shadow .25s var(--ease);
+    }
+    .floating-whatsapp:hover { transform: translateY(-5px) scale(1.04); box-shadow: 0 28px 76px rgba(37,211,102,.42); }
+    .floating-whatsapp svg { width: 30px; height: 30px; fill: currentColor; }
 
-    .references{display:grid;grid-template-columns:.72fr 1fr;gap:54px;align-items:start}.quote-list{display:grid;gap:24px}.quote{padding:0 0 24px;border-bottom:1px solid rgba(255,255,255,.12)}.quote p{font-size:clamp(1.04rem,1.4vw,1.25rem);line-height:1.55;color:#E6E1D7}.person{display:flex;align-items:center;gap:14px;margin-top:18px}.avatar{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:#11100A;font-weight:950}.person span{display:block;color:var(--soft);font-size:.86rem}
+    /* Header: cleaner, no boxed nav */
+    .site-header {
+      position: fixed;
+      inset: 0 0 auto 0;
+      height: var(--nav);
+      z-index: 1200;
+      transition: background .24s var(--ease), border-color .24s var(--ease), backdrop-filter .24s var(--ease);
+    }
+    .site-header.scrolled { background: rgba(9,10,15,.72); backdrop-filter: blur(18px); border-bottom: 1px solid rgba(255,255,255,.075); }
+    .nav { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 26px; }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 900; letter-spacing: -.015em; white-space: nowrap; }
+    .brand-mark { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 50%; background: var(--gold); color: #11100a; font-weight: 950; }
+    .nav-links { display: flex; align-items: center; gap: 26px; }
+    .nav-links a { position: relative; color: var(--muted); font-size: .9rem; font-weight: 780; transition: color .2s var(--ease); }
+    .nav-links a::after { content: ""; position: absolute; left: 0; right: 0; bottom: -9px; height: 2px; border-radius: 99px; background: var(--gold); transform: scaleX(0); transform-origin: right; transition: transform .22s var(--ease); }
+    .nav-links a.active, .nav-links a:hover { color: var(--text); }
+    .nav-links a.active::after, .nav-links a:hover::after { transform: scaleX(1); transform-origin: left; }
+    .nav-cta { display: inline-flex; align-items: center; min-height: 42px; padding: 0 18px; border-radius: 999px; color: #11100a; background: linear-gradient(135deg, var(--gold-2), var(--gold)); font-weight: 900; box-shadow: 0 16px 42px rgba(216,183,106,.18); }
+    .menu-toggle { display: none; width: 44px; height: 44px; border-radius: 50%; place-items: center; background: rgba(255,255,255,.06); border: 1px solid var(--line); color: var(--text); }
+    .menu-toggle span { width: 20px; height: 2px; background: currentColor; box-shadow: 0 7px 0 currentColor, 0 -7px 0 currentColor; }
 
-    .contact-shell{display:grid;grid-template-columns:.82fr 1fr;gap:40px;align-items:start}.contact-info{padding:36px;border-left:1px solid rgba(216,183,106,.36)}.contact-info h3{font-size:clamp(1.9rem,4vw,3.8rem);line-height:.98;letter-spacing:-.07em;margin-bottom:22px}.contact-info p{color:var(--muted)}.contact-list{display:grid;gap:14px;list-style:none;margin-top:32px}.contact-list a{display:flex;justify-content:space-between;gap:18px;align-items:center;color:var(--muted);padding:16px 0;border-bottom:1px solid rgba(255,255,255,.12)}.contact-list a strong{color:var(--text)}.contact-list a:hover strong{color:var(--gold-2)}.contact-form-card{padding:34px;border-radius:34px;background:rgba(255,255,255,.052);border:1px solid rgba(255,255,255,.12);box-shadow:0 30px 90px rgba(0,0,0,.3)}.form-grid{display:grid;gap:18px}.field{display:grid;gap:9px}.field label{font-size:.84rem;color:var(--muted);font-weight:900}.field input,.field textarea{width:100%;border:1px solid rgba(255,255,255,.12);background:rgba(0,0,0,.18);color:var(--text);border-radius:18px;padding:16px 17px;outline:0}.field textarea{min-height:154px;resize:vertical}.field input:focus,.field textarea:focus{border-color:rgba(216,183,106,.68);box-shadow:0 0 0 4px rgba(216,183,106,.1)}.form-footer{display:flex;justify-content:space-between;align-items:center;gap:16px}.form-note{color:var(--soft);font-size:.86rem}.submit-btn.is-loading{color:transparent;pointer-events:none;position:relative}.submit-btn.is-loading:after{content:"";position:absolute;width:20px;height:20px;border-radius:50%;border:2px solid rgba(16,13,7,.26);border-top-color:#100D07;animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}.form-success,.form-error-message{display:none;margin-top:18px;padding:15px 16px;border-radius:18px;font-size:.9rem;font-weight:800}.form-success{align-items:center;gap:12px;color:#DFFFEA;background:rgba(128,242,180,.1);border:1px solid rgba(128,242,180,.22)}.form-error-message{color:#FFDCDC;background:rgba(255,107,107,.1);border:1px solid rgba(255,107,107,.2)}.form-success.show{display:flex}.form-error-message.show{display:block}.check{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;color:#08110B;background:#85F0B0;font-weight:950}
-    .footer{padding:34px 0;border-top:1px solid rgba(255,255,255,.09);color:var(--muted)}.footer-inner{display:flex;justify-content:space-between;gap:20px;align-items:center}.back-top{font-weight:900;color:var(--text)}
+    /* Hero: no overlay card, fewer buttons */
+    .hero { min-height: 100svh; padding: calc(var(--nav) + 70px) 0 90px; display: flex; align-items: center; }
+    .hero-grid { display: grid; grid-template-columns: minmax(0, 1.02fr) minmax(330px, .78fr); gap: 78px; align-items: center; }
+    .availability { display: inline-flex; align-items: center; gap: 10px; color: var(--muted); margin-bottom: 26px; font-size: .92rem; }
+    .pulse { width: 9px; height: 9px; border-radius: 50%; background: #85f0b0; box-shadow: 0 0 0 rgba(133,240,176,.6); animation: pulse 2s infinite; }
+    @keyframes pulse { 70% { box-shadow: 0 0 0 12px rgba(133,240,176,0); } }
+    .hero h1 { font-size: clamp(4.2rem, 10vw, 10.9rem); line-height: .84; letter-spacing: -.105em; max-width: 980px; }
+    .hero h1 span { display: block; }
+    .accent { color: var(--gold-2); }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 14px; margin: 30px 0 22px; }
+    .hero-meta span { color: var(--gold-2); font-weight: 850; letter-spacing: -.01em; }
+    .hero-copy { max-width: 680px; color: var(--muted); font-size: clamp(1.06rem, 1.55vw, 1.25rem); }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 54px; padding: 0 23px; border-radius: 999px; font-weight: 900; transition: transform .22s var(--ease), background .22s var(--ease); }
+    .btn:hover { transform: translateY(-3px); }
+    .btn-primary { color: #11100a; background: linear-gradient(135deg, var(--gold-2), var(--gold)); box-shadow: 0 20px 54px rgba(216,183,106,.2); }
+    .btn-secondary { color: var(--text); border: 1px solid var(--line); background: rgba(255,255,255,.035); }
+    .socials { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 30px; }
+    .socials a { color: var(--text); font-size: .93rem; font-weight: 820; border-bottom: 1px solid rgba(216,183,106,.55); padding-bottom: 3px; opacity: .86; }
+    .socials a:hover { color: var(--gold-2); opacity: 1; }
 
-    @media(max-width:1020px){.section-head,.hero-grid,.about-layout,.case,.case:nth-child(even),.references,.contact-shell{grid-template-columns:1fr}.case:nth-child(even) .case-media{order:0}.hero-visual{min-height:520px}.portrait-wrap{left:0}.process-line{grid-template-columns:1fr;gap:28px;border-top:0;border-left:1px solid rgba(255,255,255,.14);padding-left:28px}.process-step{padding:0}.process-step:before{margin:0 0 14px -35px}.metrics-row{grid-template-columns:1fr}}
-    @media(max-width:820px){.cursor-dot,.cursor-ring{display:none}.nav-links{position:fixed;top:88px;left:20px;right:20px;display:grid;border-radius:24px;background:rgba(9,10,15,.96);border:1px solid rgba(255,255,255,.1);padding:12px;opacity:0;visibility:hidden;transform:translateY(-14px);transition:.24s var(--ease)}.nav-links.open{opacity:1;visibility:visible;transform:none}.nav-indicator,.nav-cta{display:none}.menu-toggle{display:grid}.hero{min-height:auto;padding-top:140px}.hero h1{font-size:clamp(3.5rem,18vw,6.5rem)}.section{padding:88px 0}.tools-strip{align-items:flex-start;justify-content:flex-start}}
-    @media(max-width:540px){.container{width:min(calc(100% - 28px),var(--max))}.brand span:last-child{display:none}.hero-actions,.btn{width:100%}.hero-visual{min-height:470px}.portrait-wrap{inset:0 0 86px 0;border-radius:34px}.visual-card{left:14px;width:calc(100% - 28px);bottom:22px;padding:18px;border-radius:24px}.side-note{display:none}.case-media{min-height:360px;padding:14px;border-radius:30px}.case-ui{border-radius:22px}.ui-grid{grid-template-columns:1fr}.ui-panel{height:150px}.contact-form-card,.contact-info{padding:24px}.floating-whatsapp{right:16px;bottom:16px;width:54px;height:54px}}
+    .hero-visual { position: relative; min-height: 620px; }
+    .portrait-wrap {
+      position: absolute;
+      inset: 0;
+      border-radius: 42px;
+      overflow: hidden;
+      background-image:
+        linear-gradient(180deg, rgba(9,10,15,0) 45%, rgba(9,10,15,.46) 100%),
+        url("./samrat-profile.png"),
+        url("https://raw.githubusercontent.com/SamratDhakal/portfolio/main/samrat-profile.png?v=20260602");
+      background-size: cover, cover, cover;
+      background-position: center, 50% 28%, 50% 28%;
+      background-repeat: no-repeat;
+      box-shadow: 0 36px 110px rgba(0,0,0,.42);
+      border: 1px solid rgba(255,255,255,.12);
+    }
+    .portrait-wrap::after { content: ""; position: absolute; inset: 0; border-radius: inherit; box-shadow: inset 0 0 0 1px rgba(255,255,255,.06), inset 0 -90px 90px rgba(0,0,0,.25); }
+    .side-note { position: absolute; right: -58px; top: 38px; writing-mode: vertical-rl; color: var(--soft); font-size: .76rem; font-weight: 850; letter-spacing: .16em; text-transform: uppercase; }
 
-    @media(max-width:820px){.hero-visual,.portrait-wrap{display:block;visibility:visible}.portrait-wrap{min-height:520px;background-position:center,50% 28%}.profile-photo{display:none}}
-    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}.cursor-dot,.cursor-ring{display:none}}
+    /* About: larger text, no meaningless number/card clutter */
+    .about-layout { display: grid; grid-template-columns: .74fr 1.26fr; gap: 72px; align-items: start; }
+    .about-lede { font-size: clamp(2rem, 4.2vw, 4.55rem); line-height: 1.03; letter-spacing: -.07em; max-width: 900px; }
+    .about-body { display: grid; gap: 22px; color: var(--muted); font-size: 1.03rem; max-width: 720px; margin-top: 34px; }
+    .proof-points { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 60px; padding-top: 34px; border-top: 1px solid var(--line); }
+    .proof-point span { display: block; color: var(--gold-2); font-size: .78rem; font-weight: 900; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 12px; }
+    .proof-point p { color: var(--muted); }
+    .experience-panel { padding: 0 0 0 28px; border-left: 1px solid rgba(216,183,106,.4); }
+    .experience-panel h3 { font-size: clamp(1.75rem, 3vw, 3.1rem); line-height: .98; letter-spacing: -.06em; margin-bottom: 24px; }
+    .experience-line { display: grid; gap: 18px; list-style: none; }
+    .experience-line li { padding-bottom: 18px; border-bottom: 1px solid rgba(255,255,255,.1); }
+    .experience-line strong { display: block; color: var(--text); font-size: 1.08rem; margin-bottom: 4px; }
+    .experience-line span { color: var(--soft); }
+
+    /* Works: bigger, cleaner */
+    .work-list { display: grid; gap: 34px; }
+    .work-card { display: grid; grid-template-columns: .92fr 1fr; gap: 42px; align-items: center; padding: 34px 0 42px; border-bottom: 1px solid var(--line); }
+    .work-card:nth-child(even) { grid-template-columns: 1fr .92fr; }
+    .work-card:nth-child(even) .work-media { order: 2; }
+    .work-media { min-height: 430px; border-radius: 36px; background: linear-gradient(135deg, rgba(216,183,106,.18), rgba(155,123,255,.16)); border: 1px solid rgba(255,255,255,.11); padding: 22px; box-shadow: 0 28px 90px rgba(0,0,0,.25); }
+    .mock-ui { height: 100%; min-height: 386px; border-radius: 26px; background: rgba(9,10,15,.62); border: 1px solid rgba(255,255,255,.12); padding: 24px; overflow: hidden; }
+    .mock-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 28px; color: var(--soft); font-size: .78rem; font-weight: 850; letter-spacing: .12em; text-transform: uppercase; }
+    .mock-lines { display: grid; gap: 12px; margin-bottom: 28px; }
+    .mock-lines span { display: block; height: 14px; border-radius: 999px; background: rgba(255,255,255,.13); }
+    .mock-lines span:nth-child(1) { width: 72%; }
+    .mock-lines span:nth-child(2) { width: 46%; }
+    .mock-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .mock-panel { min-height: 145px; border-radius: 22px; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.08); }
+    .work-content small { display: block; color: var(--gold-2); font-weight: 900; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 18px; }
+    .work-content h3 { font-size: clamp(2rem, 4vw, 4.2rem); line-height: .96; letter-spacing: -.07em; margin-bottom: 20px; }
+    .work-content p { color: var(--muted); max-width: 560px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0 26px; }
+    .tags span { color: var(--muted); padding: 8px 11px; border: 1px solid rgba(255,255,255,.11); border-radius: 999px; font-size: .78rem; font-weight: 850; background: rgba(255,255,255,.035); }
+    .case-link { color: var(--gold-2); font-weight: 950; }
+
+    /* Skills: highlighted, compact */
+    .skills-shell { display: grid; grid-template-columns: .82fr 1.18fr; gap: 72px; align-items: start; }
+    .skill-title { font-size: clamp(2.2rem, 4.8vw, 5rem); line-height: .95; letter-spacing: -.075em; }
+    .skills-list { display: grid; gap: 0; border-top: 1px solid var(--line); }
+    .skill-row { display: grid; grid-template-columns: 130px 1fr; gap: 28px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+    .skill-row strong { color: var(--gold-2); font-size: 1.02rem; }
+    .skill-row p { color: var(--muted); }
+    .tool-cloud { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
+    .tool-cloud span { padding: 11px 15px; border-radius: 999px; background: rgba(216,183,106,.09); color: var(--text); border: 1px solid rgba(216,183,106,.18); font-weight: 850; }
+
+    /* Process */
+    .process-timeline { border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; }
+    .process-step { padding: 32px 24px 0 0; }
+    .process-step::before { content: ""; display: block; width: 13px; height: 13px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 9px rgba(216,183,106,.1); margin-top: -39px; margin-bottom: 28px; }
+    .process-step span { color: var(--gold-2); font-weight: 950; }
+    .process-step h3 { font-size: 1.2rem; letter-spacing: -.035em; margin: 8px 0; }
+    .process-step p { color: var(--muted); font-size: .94rem; }
+
+    /* Testimonials carousel */
+    .testimonial-shell { display: grid; grid-template-columns: .58fr 1fr; gap: 64px; align-items: center; }
+    .testimonial-frame { position: relative; overflow: hidden; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .testimonial-track { display: flex; transition: transform .48s var(--ease); }
+    .testimonial-slide { flex: 0 0 100%; padding: 44px 4px; }
+    .testimonial-slide blockquote { font-size: clamp(1.4rem, 2.7vw, 2.75rem); line-height: 1.18; letter-spacing: -.045em; color: #ece6da; }
+    .testimonial-person { display: flex; align-items: center; gap: 14px; margin-top: 28px; }
+    .avatar { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; background: var(--gold); color: #11100a; font-weight: 950; }
+    .testimonial-person span { display: block; color: var(--soft); font-size: .86rem; }
+    .testimonial-controls { display: flex; gap: 12px; margin-top: 26px; }
+    .testimonial-controls button { width: 46px; height: 46px; border-radius: 50%; color: var(--text); background: rgba(255,255,255,.06); border: 1px solid var(--line); }
+    .testimonial-controls button:hover { background: rgba(216,183,106,.13); }
+
+    /* Contact: minimal */
+    .contact-shell { display: grid; grid-template-columns: .72fr 1fr; gap: 54px; align-items: start; }
+    .contact-links { display: grid; gap: 14px; list-style: none; margin-top: 30px; }
+    .contact-links a { display: flex; justify-content: space-between; gap: 20px; align-items: center; padding: 16px 0; border-bottom: 1px solid rgba(255,255,255,.12); color: var(--muted); }
+    .contact-links a strong { color: var(--text); }
+    .contact-links a:hover strong { color: var(--gold-2); }
+    .form-card { padding: 34px; border-radius: 34px; background: rgba(255,255,255,.052); border: 1px solid rgba(255,255,255,.12); box-shadow: 0 30px 90px rgba(0,0,0,.28); }
+    .form-grid { display: grid; gap: 18px; }
+    .field { display: grid; gap: 9px; }
+    .field label { color: var(--muted); font-size: .84rem; font-weight: 900; }
+    .field input, .field textarea { width: 100%; color: var(--text); background: rgba(0,0,0,.18); border: 1px solid rgba(255,255,255,.12); border-radius: 18px; outline: 0; padding: 16px 17px; }
+    .field textarea { min-height: 154px; resize: vertical; }
+    .field input:focus, .field textarea:focus { border-color: rgba(216,183,106,.68); box-shadow: 0 0 0 4px rgba(216,183,106,.1); }
+    .form-footer { display: flex; justify-content: flex-end; align-items: center; gap: 16px; }
+    .submit-btn.is-loading { color: transparent; pointer-events: none; position: relative; }
+    .submit-btn.is-loading::after { content: ""; position: absolute; width: 20px; height: 20px; border-radius: 50%; border: 2px solid rgba(16,13,7,.26); border-top-color: #100d07; animation: spin .8s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .form-success, .form-error-message { display: none; margin-top: 18px; padding: 15px 16px; border-radius: 18px; font-size: .9rem; font-weight: 800; }
+    .form-success { align-items: center; gap: 12px; color: #dfffea; background: rgba(128,242,180,.1); border: 1px solid rgba(128,242,180,.22); }
+    .form-error-message { color: #ffdcdc; background: rgba(255,107,107,.1); border: 1px solid rgba(255,107,107,.2); }
+    .form-success.show { display: flex; }
+    .form-error-message.show { display: block; }
+    .check { width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; color: #08110b; background: #85f0b0; font-weight: 950; }
+
+    .footer { padding: 34px 0; border-top: 1px solid rgba(255,255,255,.09); color: var(--muted); }
+    .footer-inner { display: flex; justify-content: space-between; gap: 20px; align-items: center; }
+    .back-top { color: var(--text); font-weight: 900; }
+
+    @media (max-width: 1040px) {
+      .hero-grid, .about-layout, .work-card, .work-card:nth-child(even), .skills-shell, .testimonial-shell, .contact-shell, .section-head { grid-template-columns: 1fr; }
+      .work-card:nth-child(even) .work-media { order: 0; }
+      .hero-visual { min-height: 560px; }
+      .side-note { display: none; }
+      .process-timeline { grid-template-columns: 1fr; border-top: 0; border-left: 1px solid var(--line); padding-left: 30px; gap: 26px; }
+      .process-step { padding: 0; }
+      .process-step::before { margin: 0 0 14px -37px; }
+      .proof-points { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 820px) {
+      .cursor-dot, .cursor-ring { display: none; }
+      .nav-links { position: fixed; top: 88px; left: 20px; right: 20px; display: grid; gap: 0; padding: 12px; border-radius: 24px; background: rgba(9,10,15,.96); border: 1px solid rgba(255,255,255,.1); opacity: 0; visibility: hidden; transform: translateY(-14px); transition: .24s var(--ease); }
+      .nav-links.open { opacity: 1; visibility: visible; transform: none; }
+      .nav-links a { padding: 13px 10px; }
+      .nav-links a::after, .nav-cta { display: none; }
+      .menu-toggle { display: grid; }
+      .hero { min-height: auto; padding-top: 140px; }
+      .hero h1 { font-size: clamp(3.6rem, 18vw, 6.5rem); }
+      .section { padding: 88px 0; }
+      .portrait-wrap { background-position: center, 50% 28%, 50% 28%; }
+      .skill-row { grid-template-columns: 1fr; gap: 8px; }
+    }
+    @media (max-width: 540px) {
+      .container { width: min(calc(100% - 28px), var(--max)); }
+      .brand span:last-child { display: none; }
+      .hero-actions, .btn { width: 100%; }
+      .hero-visual { min-height: 500px; }
+      .portrait-wrap { border-radius: 34px; }
+      .work-media { min-height: 360px; padding: 14px; border-radius: 30px; }
+      .mock-ui { min-height: 330px; border-radius: 22px; }
+      .mock-grid { grid-template-columns: 1fr; }
+      .mock-panel { min-height: 130px; }
+      .form-card { padding: 24px; border-radius: 28px; }
+      .floating-whatsapp { right: 16px; bottom: 16px; width: 54px; height: 54px; }
+      .footer-inner { flex-direction: column; align-items: flex-start; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
+      .cursor-dot, .cursor-ring { display: none; }
+    }
   </style>
 </head>
 <body>
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGTDH5R8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="cursor-dot" aria-hidden="true"></div>
   <div class="cursor-ring" aria-hidden="true"></div>
+
   <a class="floating-whatsapp" href="https://wa.me/9779840546211?text=Hi%20Samrat%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer" aria-label="Message Samrat Dhakal on WhatsApp">
     <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.02 3.2A12.66 12.66 0 0 0 5.24 22.5L3.7 28.16l5.8-1.52A12.65 12.65 0 1 0 16.02 3.2Zm0 22.98a10.35 10.35 0 0 1-5.28-1.45l-.38-.23-3.44.9.92-3.36-.25-.4a10.36 10.36 0 1 1 8.43 4.54Zm5.68-7.75c-.31-.16-1.84-.91-2.13-1.01-.28-.11-.49-.16-.7.15-.2.31-.8 1.01-.98 1.22-.18.2-.36.23-.67.08-.31-.16-1.32-.49-2.51-1.55-.93-.83-1.55-1.85-1.74-2.16-.18-.31-.02-.48.14-.64.14-.14.31-.36.47-.54.16-.18.2-.31.31-.52.1-.2.05-.39-.03-.54-.08-.16-.7-1.68-.96-2.3-.25-.6-.51-.52-.7-.53h-.6c-.2 0-.54.08-.82.39-.28.31-1.08 1.06-1.08 2.58s1.11 2.99 1.27 3.2c.16.2 2.19 3.34 5.3 4.69.74.32 1.32.51 1.77.65.74.24 1.42.2 1.96.12.6-.09 1.84-.75 2.1-1.48.26-.73.26-1.35.18-1.48-.08-.13-.28-.21-.59-.36Z"/></svg>
   </a>
@@ -88,7 +348,14 @@
   <header class="site-header" id="siteHeader">
     <nav class="nav container" aria-label="Primary navigation">
       <a href="#home" class="brand"><span class="brand-mark">SD</span><span>Samrat Dhakal</span></a>
-      <div class="nav-links" id="navLinks"><span class="nav-indicator" id="navIndicator"></span><a href="#home" class="active">Home</a><a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#process">Process</a><a href="#contact">Contact</a></div>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </div>
       <a class="nav-cta" href="#contact">Contact Me</a>
       <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span></button>
     </nav>
@@ -99,118 +366,250 @@
       <div class="container hero-grid">
         <div class="reveal">
           <div class="availability"><span class="pulse"></span> Available for UI/UX design opportunities</div>
-          <h1><span class="line">Samrat</span><span class="line accent">Dhakal</span></h1>
-          <div class="hero-meta"><span class="meta-chip">UI/UX Designer</span><span class="meta-chip">Lalitpur, Nepal</span><span class="meta-chip">Product-minded</span></div>
+          <h1><span>Samrat</span><span class="accent">Dhakal</span></h1>
+          <div class="hero-meta"><span>UI/UX Designer</span><span>Lalitpur, Nepal</span><span>Product-minded</span></div>
           <p class="hero-copy">I design clean, practical interfaces for HR systems, web products, and digital tools — with a focus on usability, structure, visual clarity, and designs developers can realistically build.</p>
-          <div class="hero-actions"><a class="btn btn-primary" href="#work">View Selected Work <span>↗</span></a><a class="btn btn-secondary" href="#contact">Contact Me <span>→</span></a><a class="btn btn-whatsapp" href="https://wa.me/9779840546211?text=Hi%20Samrat%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer">WhatsApp <span>↗</span></a></div>
-          <div class="socials"><a href="https://www.linkedin.com/in/samratdhakal" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://dribbble.com/samrat_dhakal" target="_blank" rel="noopener noreferrer">Dribbble</a><a href="https://www.behance.net/samratdhakal" target="_blank" rel="noopener noreferrer">Behance</a><a href="https://www.figma.com/@samratdhakal" target="_blank" rel="noopener noreferrer">Figma</a></div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#work">View My Projects <span>↗</span></a>
+            <a class="btn btn-secondary" href="#contact">Contact Me <span>→</span></a>
+          </div>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/samratdhakal" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://dribbble.com/samrat_dhakal" target="_blank" rel="noopener noreferrer">Dribbble</a>
+            <a href="https://www.behance.net/samratdhakal" target="_blank" rel="noopener noreferrer">Behance</a>
+            <a href="https://www.figma.com/@samratdhakal" target="_blank" rel="noopener noreferrer">Figma</a>
+          </div>
         </div>
-        <aside class="hero-visual reveal" aria-label="Personal design visual">
+        <aside class="hero-visual reveal" aria-label="Samrat Dhakal portrait">
           <div class="portrait-wrap" role="img" aria-label="Samrat Dhakal portrait"></div>
           <div class="side-note">UX Research · UI Systems · Prototypes</div>
-          <div class="visual-card"><small>Portfolio focus</small><strong>Human-centered screens with technical awareness.</strong><p>From Figma flows to developer handoff, I care about the full path from idea to usable product.</p></div>
         </aside>
       </div>
     </section>
 
     <section class="section" id="about">
-      <div class="container">
-        <div class="about-layout">
-          <div class="reveal"><span class="eyebrow">About</span><div class="large-number">01</div></div>
-          <div class="reveal">
-            <p class="intro-text">I’m a UI/UX Designer with a technical background in Java and web development. My work sits between <em>visual design</em>, <em>product thinking</em>, and <em>implementation reality</em>.</p>
-            <div class="proof-list">
-              <div class="proof-item"><span>✓</span><p>I translate user research and workflow problems into clear wireframes, product flows, and usable interfaces.</p></div>
-              <div class="proof-item"><span>✓</span><p>I care about design systems, spacing, typography, responsive behavior, and interface consistency — not only pretty screens.</p></div>
-              <div class="proof-item"><span>✓</span><p>My technical foundation in HTML, CSS, JavaScript, Java, REST APIs, and system support helps me design with feasibility in mind.</p></div>
-            </div>
-          </div>
+      <div class="container about-layout">
+        <div class="reveal">
+          <span class="eyebrow">About</span>
+          <aside class="experience-panel">
+            <h3>Experience that connects design and development.</h3>
+            <ul class="experience-line">
+              <li><strong>3+ years</strong><span>Professional experience across UI/UX, Java engineering, and technical support.</span></li>
+              <li><strong>12+ projects</strong><span>Product, web, Figma, academic, and technical projects.</span></li>
+              <li><strong>Design + technical base</strong><span>Figma, Adobe XD, HTML, CSS, JavaScript, Java, REST APIs.</span></li>
+            </ul>
+          </aside>
         </div>
-        <div class="metrics-row reveal" aria-label="Portfolio metrics">
-          <div class="metric"><strong>3 yrs</strong><span>Professional experience across design, engineering, and technical support.</span></div>
-          <div class="metric"><strong>5+ yrs</strong><span>Exploring Figma, Canva, UI patterns, and digital interface design.</span></div>
-          <div class="metric"><strong>12+</strong><span>Product, web, Figma, academic, and technical projects.</span></div>
+        <div class="reveal">
+          <h2 class="about-lede">I approach design from both a user and implementation perspective.</h2>
+          <div class="about-body">
+            <p>My work spans user research, wireframing, prototyping, visual hierarchy, interface consistency, and collaboration with developers and product teams.</p>
+            <p>I care about making interfaces feel easier to understand, especially when the product has complex workflows, multiple user types, or technical constraints behind the scenes.</p>
+          </div>
+          <div class="proof-points">
+            <div class="proof-point"><span>Research</span><p>User-centered research translated into clean product flows.</p></div>
+            <div class="proof-point"><span>Visual system</span><p>Strong focus on typography, spacing, hierarchy, and consistency.</p></div>
+            <div class="proof-point"><span>Handoff</span><p>Technical awareness that helps designs move smoothly into development.</p></div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section" id="work">
       <div class="container">
-        <div class="section-head reveal"><div><span class="eyebrow">Selected Work</span><h2 class="section-title">Work that feels specific, practical, and usable.</h2></div><p class="section-copy">A more portfolio-safe selection based on HRIS product design, approved concept projects, and collaborative web UX contributions.</p></div>
+        <div class="section-head reveal">
+          <div><span class="eyebrow">My Works</span><h2 class="section-title">Selected projects shaped around clarity and usable flows.</h2></div>
+          <p class="section-copy">A focused look at product and web interface work involving HRIS workflows, visual hierarchy, research tools, and collaborative UX improvements.</p>
+        </div>
         <div class="work-list">
-          <article class="case reveal">
-            <div class="case-media"><div class="case-ui"><div class="ui-top"><span></span><span></span><span></span></div><div class="ui-grid"><div class="ui-panel"></div><div class="ui-stack"><div class="ui-line"></div><div class="ui-line"></div><div class="ui-tile"></div><div class="ui-tile"></div></div></div></div></div>
-            <div class="case-content"><div class="case-kicker">Product Design · HRIS</div><h3>HRIS Employee Experience</h3><p>Worked on employee management and workplace engagement flows for an HRIS product, focusing on clearer information structure, smoother task completion, and interface consistency for complex HR workflows.</p><div class="tags"><span>User Research</span><span>Wireframes</span><span>Design System</span><span>Developer Handoff</span></div><a class="case-link" href="#contact">Request case study details →</a></div>
+          <article class="work-card reveal">
+            <div class="work-media"><div class="mock-ui"><div class="mock-top"><span>HRIS Flow</span><span>Product UX</span></div><div class="mock-lines"><span></span><span></span></div><div class="mock-grid"><div class="mock-panel"></div><div class="mock-panel"></div></div></div></div>
+            <div class="work-content"><small>01 · Product Design</small><h3>HRIS Product Experience</h3><p>Simplified employee management and HR workflows into clearer screens for setup, attendance, leave, approvals, and operational tasks.</p><div class="tags"><span>UX Research</span><span>Dashboard UI</span><span>Workflow Design</span></div><a class="case-link" href="#contact">View Case Study →</a></div>
           </article>
-          <article class="case reveal">
-            <div class="case-media"><div class="case-ui"><div class="ui-top"><span></span><span></span><span></span></div><div class="ui-stack"><div class="ui-line" style="width:68%"></div><div class="ui-tile" style="height:150px"></div><div class="ui-grid"><div class="ui-tile"></div><div class="ui-tile"></div></div></div></div></div>
-            <div class="case-content"><div class="case-kicker">Web UX · Visual Hierarchy</div><h3>Selected Web Interface Contributions</h3><p>Contributed to interface improvements focused on layout clarity, stronger hierarchy, smoother navigation, and more readable content presentation while collaborating within professional design environments.</p><div class="tags"><span>Web UI</span><span>Content Clarity</span><span>Responsive Layout</span><span>Visual Refinement</span></div><a class="case-link" href="#contact">Discuss the work →</a></div>
+          <article class="work-card reveal">
+            <div class="work-media"><div class="mock-ui"><div class="mock-top"><span>Web UX</span><span>Interface</span></div><div class="mock-lines"><span></span><span></span></div><div class="mock-grid"><div class="mock-panel"></div><div class="mock-panel"></div></div></div></div>
+            <div class="work-content"><small>02 · Web Interface</small><h3>Selected Web UX Contributions</h3><p>Contributed to web interface improvements focused on clearer layout, better content rhythm, stronger visual hierarchy, and smoother navigation.</p><div class="tags"><span>Web UI</span><span>Visual Hierarchy</span><span>Collaboration</span></div><a class="case-link" href="#contact">View Case Study →</a></div>
           </article>
-          <article class="case reveal">
-            <div class="case-media"><div class="case-ui"><div class="ui-top"><span></span><span></span><span></span></div><div class="ui-line" style="width:50%;margin-bottom:18px"></div><div class="ui-panel" style="height:170px"></div><div class="ui-grid" style="margin-top:14px"><div class="ui-line"></div><div class="ui-line"></div></div></div></div>
-            <div class="case-content"><div class="case-kicker">AI Tool · Research Interface</div><h3>Khoj.ai Research Tool</h3><p>Designed a prompt-based research experience for browsing and live search tasks, emphasizing lightweight decision-making, clean results presentation, and a practical interface for quick research workflows.</p><div class="tags"><span>AI Product</span><span>Prompt Flow</span><span>Research UX</span><span>Prototype</span></div><a class="case-link" href="#contact">View project context →</a></div>
+          <article class="work-card reveal">
+            <div class="work-media"><div class="mock-ui"><div class="mock-top"><span>Khoj.ai</span><span>Research Tool</span></div><div class="mock-lines"><span></span><span></span></div><div class="mock-grid"><div class="mock-panel"></div><div class="mock-panel"></div></div></div></div>
+            <div class="work-content"><small>03 · Concept Product</small><h3>Khoj.ai Research Tool</h3><p>Designed a prompt-based research interface focused on browsing, live searches, organized results, and lightweight decision-making support.</p><div class="tags"><span>AI Product</span><span>Interaction Design</span><span>Prototype</span></div><a class="case-link" href="#contact">View Case Study →</a></div>
           </article>
         </div>
       </div>
     </section>
 
     <section class="section" id="skills">
-      <div class="container">
-        <div class="tools-strip reveal"><strong>Tools & capabilities</strong><div class="tool-list"><span>Figma</span><span>Framer</span><span>Adobe XD</span><span>Photoshop</span><span>Illustrator</span><span>Canva</span><span>HTML/CSS</span><span>JavaScript</span><span>Design Systems</span><span>Usability Testing</span></div></div>
+      <div class="container skills-shell">
+        <div class="reveal"><span class="eyebrow">Skills</span><h2 class="skill-title">Design skills backed by product thinking.</h2><div class="tool-cloud"><span>Figma</span><span>Framer</span><span>Adobe XD</span><span>Photoshop</span><span>Illustrator</span><span>HTML/CSS</span></div></div>
+        <div class="skills-list reveal">
+          <div class="skill-row"><strong>UX</strong><p>User flows, research synthesis, wireframes, information architecture, and usability-focused decisions.</p></div>
+          <div class="skill-row"><strong>UI</strong><p>Visual hierarchy, responsive layout, typography, components, spacing systems, and polished interface design.</p></div>
+          <div class="skill-row"><strong>Prototype</strong><p>Clickable flows, interaction behavior, stakeholder review, and design validation before development.</p></div>
+          <div class="skill-row"><strong>Handoff</strong><p>Developer-friendly design decisions with awareness of HTML, CSS, JavaScript, Java, and REST APIs.</p></div>
+        </div>
       </div>
     </section>
 
     <section class="section" id="process">
       <div class="container">
-        <div class="section-head reveal"><div><span class="eyebrow">Process</span><h2 class="section-title">A simple process for complex screens.</h2></div><p class="section-copy">I use a practical design process that moves from understanding the problem to validating the interface before final handoff.</p></div>
-        <div class="process-line reveal">
-          <div class="process-step"><span>01</span><h3>Research</h3><p>Understand users, business goals, workflows, and technical constraints.</p></div>
-          <div class="process-step"><span>02</span><h3>Structure</h3><p>Define flows, information hierarchy, and low-fidelity wireframes.</p></div>
-          <div class="process-step"><span>03</span><h3>Interface</h3><p>Design polished screens with consistent spacing, typography, and components.</p></div>
-          <div class="process-step"><span>04</span><h3>Prototype</h3><p>Connect screens into clickable flows for review, feedback, and alignment.</p></div>
-          <div class="process-step"><span>05</span><h3>Refine</h3><p>Improve usability, prepare handoff, and iterate with developers and product teams.</p></div>
+        <div class="section-head reveal"><div><span class="eyebrow">Process</span><h2 class="section-title">A practical flow for designing real products.</h2></div><p class="section-copy">I keep the process lightweight but intentional: understand the problem, map the structure, design the interface, prototype the flow, and refine through feedback.</p></div>
+        <div class="process-timeline reveal">
+          <div class="process-step"><span>01</span><h3>Research</h3><p>Understand users, goals, constraints, and workflow problems.</p></div>
+          <div class="process-step"><span>02</span><h3>Structure</h3><p>Map flows, hierarchy, screen logic, and key decisions.</p></div>
+          <div class="process-step"><span>03</span><h3>Design</h3><p>Create clean UI with strong spacing, typography, and consistency.</p></div>
+          <div class="process-step"><span>04</span><h3>Prototype</h3><p>Turn static screens into flows that can be reviewed and tested.</p></div>
+          <div class="process-step"><span>05</span><h3>Refine</h3><p>Improve clarity, remove friction, and prepare for handoff.</p></div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="references">
-      <div class="container references">
-        <div class="reveal"><span class="eyebrow">Testimonials</span><h2 class="section-title">People who know my work.</h2><p class="section-copy">Professional messages from people who have seen my design thinking, work ethic, and growth closely.</p></div>
-        <div class="quote-list reveal">
-          <article class="quote"><p>“Samrat is detail-oriented, curious, and genuinely committed to improving his design skills. His visual sense, patience with feedback, and interest in product design make him someone who keeps growing with every project.”</p><div class="person"><div class="avatar">PB</div><div><strong>Priyanka Bhandari</strong><span>Independent Web & Product Designer · Freelance Worker</span></div></div></article>
-          <article class="quote"><p>“Samrat understands UI from both a design and technical point of view. He thinks about layout, responsiveness, usability, and how a design will actually be built, which makes his design decisions more practical and thoughtful.”</p><div class="person"><div class="avatar">ID</div><div><strong>Ipshu Dhakal</strong><span>Frontend Developer · Crawford & Company</span></div></div></article>
-          <article class="quote"><p>“During his time at Reduct Nepal, Samrat showed responsibility, curiosity, and a strong willingness to learn. He contributed to digital product and website UI improvements with care for clarity, usability, and visual consistency.”</p><div class="person"><div class="avatar">PJ</div><div><strong>Punit Jajodia</strong><span>CEO · Reduct Nepal & Programiz | BOD · TechKraft</span></div></div></article>
+    <section class="section" id="testimonials">
+      <div class="container testimonial-shell">
+        <div class="reveal"><span class="eyebrow">Testimonials</span><h2 class="section-title">Kind words from people who know my work.</h2><div class="testimonial-controls"><button type="button" id="prevTestimonial" aria-label="Previous testimonial">←</button><button type="button" id="nextTestimonial" aria-label="Next testimonial">→</button></div></div>
+        <div class="testimonial-frame reveal">
+          <div class="testimonial-track" id="testimonialTrack">
+            <article class="testimonial-slide"><blockquote>“Samrat is detail-oriented, curious, and genuinely committed to improving his design skills. His patience with feedback and interest in product design help him keep growing with every project.”</blockquote><div class="testimonial-person"><div class="avatar">PB</div><div><strong>Priyanka Bhandari</strong><span>Independent Web & Product Designer · Freelance Worker</span></div></div></article>
+            <article class="testimonial-slide"><blockquote>“Samrat understands UI from both a design and technical point of view. He thinks about layout, responsiveness, usability, and how a design will actually be built.”</blockquote><div class="testimonial-person"><div class="avatar">ID</div><div><strong>Ipshu Dhakal</strong><span>Frontend Developer · Crawford & Company</span></div></div></article>
+            <article class="testimonial-slide"><blockquote>“During his time at Reduct Nepal, Samrat showed responsibility, curiosity, and care for clarity, usability, and visual consistency in digital product and website UI improvements.”</blockquote><div class="testimonial-person"><div class="avatar">PJ</div><div><strong>Punit Jajodia</strong><span>CEO · Reduct Nepal & Programiz | BOD · TechKraft</span></div></div></article>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section" id="contact">
-      <div class="container">
-        <div class="section-head reveal"><div><span class="eyebrow">Contact</span><h2 class="section-title">Have a product, website, or idea that needs better UX?</h2></div><p class="section-copy">Reach out for UI/UX design roles, freelance projects, landing pages, wireframes, prototypes, or design system work.</p></div>
-        <div class="contact-shell">
-          <aside class="contact-info reveal"><h3>Let’s make the interface easier to understand.</h3><p>Based in Lalitpur, Nepal — available for UI/UX design roles, freelance work, and collaborative product design projects.</p><ul class="contact-list"><li><a href="mailto:designer@samratdhakal.com.np"><span>Email</span><strong>designer@samratdhakal.com.np</strong></a></li><li><a href="https://www.linkedin.com/in/samratdhakal" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>Connect ↗</strong></a></li><li><a href="https://wa.me/9779840546211?text=Hi%20Samrat%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer"><span>WhatsApp</span><strong>Message ↗</strong></a></li></ul></aside>
-          <article class="contact-form-card reveal"><form id="my-form" class="form-grid" action="https://formspree.io/f/xdobakyp" method="POST"><div class="field"><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required /></div><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required /></div><div class="field"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell me about your project or opportunity..." required></textarea></div><div class="form-footer"><span class="form-note">Send a message and I’ll get back to you soon.</span><button class="btn btn-primary submit-btn" id="submitBtn" type="submit">Send Message</button></div><div class="form-success" id="formSuccess"><span class="check">✓</span><span>Message sent successfully.</span></div><div class="form-error-message" id="formError"></div></form></article>
-        </div>
+      <div class="container contact-shell">
+        <div class="reveal"><span class="eyebrow">Contact</span><h2 class="section-title">Let’s talk about the interface.</h2><ul class="contact-links"><li><a href="mailto:designer@samratdhakal.com.np"><span>Email</span><strong>designer@samratdhakal.com.np</strong></a></li><li><a href="https://www.linkedin.com/in/samratdhakal" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>Connect ↗</strong></a></li><li><a href="https://wa.me/9779840546211?text=Hi%20Samrat%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer"><span>WhatsApp</span><strong>Message ↗</strong></a></li></ul></div>
+        <article class="form-card reveal">
+          <form id="my-form" class="form-grid" action="https://formspree.io/f/xdobakyp" method="POST">
+            <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required /></div>
+            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required /></div>
+            <div class="field"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell me about your project or opportunity..." required></textarea></div>
+            <div class="form-footer"><button class="btn btn-primary submit-btn" id="submitBtn" type="submit">Send Message</button></div>
+            <div class="form-success" id="formSuccess" role="status" aria-live="polite"><span class="check">✓</span><span>Message sent successfully.</span></div>
+            <div class="form-error-message" id="formError" role="alert" aria-live="assertive"></div>
+          </form>
+        </article>
       </div>
     </section>
   </main>
 
-  <footer class="footer"><div class="container footer-inner"><p>© <span id="year"></span> Samrat Dhakal. Designed with clarity, craft, and intention.</p><a class="back-top" href="#home">Back to top ↑</a></div></footer>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Samrat Dhakal. All rights reserved.</p>
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
 
   <script>
-    const qs=(s,sc=document)=>sc.querySelector(s); const qsa=(s,sc=document)=>[...sc.querySelectorAll(s)];
+    const qs = (selector, scope = document) => scope.querySelector(selector);
+    const qsa = (selector, scope = document) => [...scope.querySelectorAll(selector)];
+
     qs('#year').textContent = new Date().getFullYear();
-    const header=qs('#siteHeader'), menuToggle=qs('#menuToggle'), navLinks=qs('#navLinks'), navItems=qsa('.nav-links a'), indicator=qs('#navIndicator'), sections=qsa('main section[id]');
-    function updateHeader(){header.classList.toggle('scrolled', window.scrollY > 26)} updateHeader(); addEventListener('scroll', updateHeader, {passive:true});
-    menuToggle.addEventListener('click',()=>{const open=navLinks.classList.toggle('open'); menuToggle.setAttribute('aria-expanded', open)}); navItems.forEach(a=>a.addEventListener('click',()=>navLinks.classList.remove('open')));
-    function moveIndicator(a){if(!a || innerWidth <= 820) return; const n=navLinks.getBoundingClientRect(), r=a.getBoundingClientRect(); indicator.style.width=r.width+'px'; indicator.style.transform=`translateX(${r.left-n.left-7}px)`}
-    function setActive(){let current='home'; sections.forEach(s=>{if(scrollY >= s.offsetTop - 170) current=s.id}); navItems.forEach(a=>{const active=a.getAttribute('href') === '#'+current; a.classList.toggle('active',active); if(active) moveIndicator(a)})}
-    addEventListener('scroll', setActive, {passive:true}); addEventListener('resize', setActive); addEventListener('load', setActive);
-    const revealObserver = new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('show'); revealObserver.unobserve(entry.target)}})}, {threshold:.14, rootMargin:'0px 0px -40px 0px'}); qsa('.reveal').forEach((el,i)=>{el.style.transitionDelay = Math.min(i % 5, 4) * 70 + 'ms'; revealObserver.observe(el)});
-    const cursorDot=qs('.cursor-dot'), cursorRing=qs('.cursor-ring'); let mouseX=0, mouseY=0, ringX=0, ringY=0;
-    if(cursorDot && cursorRing && matchMedia('(pointer:fine)').matches){ addEventListener('mousemove',e=>{mouseX=e.clientX; mouseY=e.clientY; cursorDot.style.transform=`translate(${mouseX}px,${mouseY}px)`},{passive:true}); const animate=()=>{ringX+=(mouseX-ringX)*.16; ringY+=(mouseY-ringY)*.16; cursorRing.style.transform=`translate(${ringX}px,${ringY}px)`; requestAnimationFrame(animate)}; animate(); qsa('a,button,.case-media,.tool-list span').forEach(el=>{el.addEventListener('mouseenter',()=>document.body.classList.add('cursor-hover')); el.addEventListener('mouseleave',()=>document.body.classList.remove('cursor-hover'))}) }
-    const form=qs('#my-form'), submitBtn=qs('#submitBtn'), success=qs('#formSuccess'), formError=qs('#formError');
-    form.addEventListener('submit', async event => { event.preventDefault(); submitBtn.classList.add('is-loading'); success.classList.remove('show'); formError.classList.remove('show'); formError.textContent=''; try{ const response = await fetch(form.action,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}}); if(response.ok){form.reset(); success.classList.add('show')} else {const data=await response.json().catch(()=>null); formError.textContent=data?.errors?.[0]?.message || 'Message could not be sent. Please check the form and try again.'; formError.classList.add('show')}}catch(error){formError.textContent='Unable to send right now. Please try again later or email me directly at designer@samratdhakal.com.np.'; formError.classList.add('show')} finally{submitBtn.classList.remove('is-loading')} });
+
+    const header = qs('#siteHeader');
+    const menuToggle = qs('#menuToggle');
+    const navLinks = qs('#navLinks');
+    const navItems = qsa('.nav-links a');
+    const sections = qsa('main section[id]');
+
+    const updateHeader = () => header.classList.toggle('scrolled', window.scrollY > 28);
+    updateHeader();
+    window.addEventListener('scroll', updateHeader, { passive: true });
+
+    menuToggle.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', open);
+    });
+    navItems.forEach(link => link.addEventListener('click', () => navLinks.classList.remove('open')));
+
+    const setActive = () => {
+      let current = 'home';
+      sections.forEach(section => {
+        if (window.scrollY >= section.offsetTop - 170) current = section.id;
+      });
+      navItems.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + current));
+    };
+    window.addEventListener('scroll', setActive, { passive: true });
+    window.addEventListener('load', setActive);
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: .14, rootMargin: '0px 0px -40px 0px' });
+    qsa('.reveal').forEach((el, index) => {
+      el.style.transitionDelay = Math.min(index % 5, 4) * 70 + 'ms';
+      observer.observe(el);
+    });
+
+    const cursorDot = qs('.cursor-dot');
+    const cursorRing = qs('.cursor-ring');
+    let mouseX = 0, mouseY = 0, ringX = 0, ringY = 0;
+    if (cursorDot && cursorRing && window.matchMedia('(pointer:fine)').matches) {
+      window.addEventListener('mousemove', event => {
+        mouseX = event.clientX;
+        mouseY = event.clientY;
+        cursorDot.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+      }, { passive: true });
+      const animateCursor = () => {
+        ringX += (mouseX - ringX) * .16;
+        ringY += (mouseY - ringY) * .16;
+        cursorRing.style.transform = `translate(${ringX}px, ${ringY}px)`;
+        requestAnimationFrame(animateCursor);
+      };
+      animateCursor();
+      qsa('a, button, .work-card, .skill-row').forEach(el => {
+        el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
+        el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
+      });
+    }
+
+    const track = qs('#testimonialTrack');
+    const prev = qs('#prevTestimonial');
+    const next = qs('#nextTestimonial');
+    let testimonialIndex = 0;
+    const updateTestimonials = () => { track.style.transform = `translateX(-${testimonialIndex * 100}%)`; };
+    prev.addEventListener('click', () => { testimonialIndex = (testimonialIndex + 2) % 3; updateTestimonials(); });
+    next.addEventListener('click', () => { testimonialIndex = (testimonialIndex + 1) % 3; updateTestimonials(); });
+    setInterval(() => { testimonialIndex = (testimonialIndex + 1) % 3; updateTestimonials(); }, 6500);
+
+    const form = qs('#my-form');
+    const submitBtn = qs('#submitBtn');
+    const success = qs('#formSuccess');
+    const formError = qs('#formError');
+
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      submitBtn.classList.add('is-loading');
+      success.classList.remove('show');
+      formError.classList.remove('show');
+      formError.textContent = '';
+
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { Accept: 'application/json' }
+        });
+
+        if (response.ok) {
+          form.reset();
+          success.classList.add('show');
+        } else {
+          const data = await response.json().catch(() => null);
+          formError.textContent = data?.errors?.[0]?.message || 'Message could not be sent. Please check the form and try again.';
+          formError.classList.add('show');
+        }
+      } catch (error) {
+        formError.textContent = 'Unable to send right now. Please try again later or email me directly at designer@samratdhakal.com.np.';
+        formError.classList.add('show');
+      } finally {
+        submitBtn.classList.remove('is-loading');
+      }
+    });
   </script>
 </body>
 </html>
